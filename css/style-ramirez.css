@@ -1,0 +1,255 @@
+/*----------------------------------------------------
+@File: Default Styles
+@Author: Rocky Ahmed
+@URL: http://wethemez.com
+Email: rockybd1995@gmail.com
+
+This file contains the styling for the actual theme, this
+is the file you need to edit to change the look of the
+theme.
+---------------------------------------------------- */
+/*=====================================================================
+@Template Name: Ramirez
+@Author: Rocky Ahmed
+@Developed By: Rocky Ahmed
+@Developer URL: http://rocky.wethemez.com
+
+@Default Styles
+
+Table of Content:
+01/ Variables
+02/ predefin
+03/ header
+04/ profile
+05/ button
+06/ skill
+07/ portfolio
+08/ blog
+09/ footer
+=====================================================================*/
+/*----------------------------------------------------*/
+/*font Variables*/
+/*Color Variables*/
+@import url("https://fonts.googleapis.com/css?family=Bree+Serif|Raleway:100,200,300,400,500,600,700,800,900|Yellowtail");
+.col-md-offset-right-1 {
+  margin-right: 8.33333333%;
+}
+
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  text-decoration: none;
+}
+
+
+
+.social_icon li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.social_icon li a {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  border: 1px solid #677fb5;
+  display: block;
+  line-height: 40px;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: all 400ms linear 0s;
+  color: #677fb5;
+}
+
+.social_icon li:nth-child(2) a {
+  color: #70c2e9;
+  border-color: #70c2e9;
+}
+
+.social_icon li:nth-child(2):hover a {
+  background: #70c2e9;
+}
+
+.social_icon li:nth-child(3) a {
+  color: #895a4d;
+  border-color: #895a4d;
+}
+
+.social_icon li:nth-child(3):hover a {
+  background: #895a4d;
+}
+
+.social_icon li:nth-child(4) a {
+  color: #d34836;
+  border-color: #d34836;
+}
+
+.social_icon li:nth-child(4):hover a {
+  background: #d34836;
+}
+
+.social_icon li:nth-child(5) a {
+  color: #007ab9;
+  border-color: #007ab9;
+}
+
+.social_icon li:nth-child(5):hover a {
+  background: #007ab9;
+}
+
+.social_icon li:nth-child(6) a {
+  color: #d8545d;
+  border-color: #d8545d;
+}
+
+.social_icon li:nth-child(6):hover a {
+  background: #d8545d;
+}
+
+.social_icon li:nth-child(7) a {
+  color: #5ecbf3;
+  border-color: #5ecbf3;
+}
+
+.social_icon li:nth-child(7):hover a {
+  background: #5ecbf3;
+}
+
+.social_icon li:nth-child(8) a {
+  color: #ff3ba4;
+  border-color: #ff3ba4;
+}
+
+.social_icon li:nth-child(8):hover a {
+  background: #ff3ba4;
+}
+
+.social_icon li:last-child {
+  margin-right: 0px;
+}
+
+.social_icon li:last-child a {
+  color: #faaa5e;
+  border-color: #faaa5e;
+}
+
+.social_icon li:last-child:hover a {
+  background: #faaa5e;
+}
+
+.social_icon li:hover a {
+  background: #677fb5;
+  color: #fff;
+}
+
+/* End About Person area css
+============================================================================================ */
+
+
+/* End Portfolio css
+============================================================================================ */
+/*---------------------------------------------------- */
+/*----------------------------------------------------*/
+/* News area css
+============================================================================================ */
+.twitter_area {
+  background: #fff;
+  padding: 0px 15px;
+  min-height: 420px;
+}
+
+.twitter_area ul {
+  padding-bottom: 20px;
+}
+
+.twitter_area ul li {
+  font-size: 14px;
+  color: #666666;
+  line-height: 24px;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+
+.twitter_area ul li a {
+  color: #585778;
+  font-size: 14px;
+  line-height: 24px;
+  font-family: "Raleway", sans-serif;
+}
+
+.twitter_area ul li:last-child {
+  margin-bottom: 0px;
+}
+
+.w_title {
+  padding: 28px 0px 20px 0px;
+}
+
+.w_title h3 {
+  font-size: 18px;
+  color: #333333;
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+}
+
+.w_title h3 i {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  color: #0084b4;
+}
+
+.instagram_area {
+  background: #fff;
+  padding: 0px 15px;
+  overflow: hidden;
+  clear: both;
+  min-height: 420px;
+}
+
+.instagram_area .w_title h3 i {
+  color: #895a4d;
+}
+
+.instagram_area ul {
+  overflow: hidden;
+  clear: both;
+}
+
+.instagram_area ul li {
+  width: calc(100% / 3);
+  float: left;
+  overflow: hidden;
+  padding-right: 10px;
+  margin-bottom: 10px;
+}
+
+.instagram_area ul li a img {
+  max-width: 100%;
+}
+
+.instagram_area .follow_btn {
+  max-width: 170px;
+  background: #895a4d;
+  line-height: 35px;
+  display: block;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  margin: 5px auto 22px;
+  overflow: hidden;
+}
