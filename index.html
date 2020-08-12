@@ -62,13 +62,19 @@
 
 	<script>
 	$(function(){
-     var ftco-nav = $(".navbar-collapse"); // avoid dependency on #id
+     var navMain = $("#ftco-nav"); // avoid dependency on #id
      // "a:not([data-toggle])" - to avoid issues caused
      // when you have dropdown inside navbar
      navMain.on("click", "a:not([data-toggle])", null, function () {
          navMain.collapse('hide');
      });
  });
+
+ $(document).on('click','.navbar-collapse.in',function(e) {
+    if( $(e.target).is('a') ) {
+        $(this).collapse('hide');
+    }
+});
 	</script>
 	<!--================ Start Home Banner Area =================-->
 	<!-- <section id="home-section" class="hero bg-dark">
