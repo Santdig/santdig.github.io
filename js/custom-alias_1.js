@@ -263,7 +263,7 @@
 		//offCanvasNav();
 
 		contentWayPoint();
-		//navbarState();
+		navbarState();
 		// stellarInit();
 		clickMenu();
 		// navigationSection();
