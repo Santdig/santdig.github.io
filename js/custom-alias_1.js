@@ -221,7 +221,7 @@
 	$(function(){
 
 		OnePageNav();
-		offCanvasNav();
+		//offCanvasNav();
 
 		contentWayPoint();
 		navbarState();
