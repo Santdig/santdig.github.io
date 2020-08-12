@@ -189,7 +189,7 @@
 			if (navbar.hasClass('scrolled')) {
 		   	if (st > lastScrollTop){
 		      //if (navbar.hasClass('scrolled')) {
-		      	//navbar.removeClass('awake');
+		      	navbar.removeClass('awake');
 		      	navbar.addClass('sleep');
 					//}
 		   	} else {
