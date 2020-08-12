@@ -266,7 +266,7 @@
 		navbarState();
 		// stellarInit();
 
-		//clickMenu();
+		clickMenu();
 
 		// navigationSection();
 		// magnificPopupControl();
