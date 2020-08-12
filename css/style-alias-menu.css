@@ -3,7 +3,7 @@
 
 .site-navbar {
   border: none;
-  -webkit-box-shadow: none;
+  /*-webkit-box-shadow: none;*/
   box-shadow: none;
   border-radius: 0px;
   margin-bottom: 0px;
@@ -83,11 +83,11 @@
       -ms-transform: translateY(0%);
       transform: translateY(0%);
       background: #fff !important; }
-    .site-navbar.scrolled.sleep {
+    /*.site-navbar.scrolled.sleep {
       -webkit-transform: translateY(-90%);
       -ms-transform: translateY(-90%);
       transform: translateY(-90%);
-      background: #57d131 !important; }
+      background: #57d131 !important; }*/
 
     .site-navbar.scrolled .navbar-brand {
       color: #000; }
