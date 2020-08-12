@@ -185,7 +185,7 @@
 				navbar.removeClass('scrolled awake');
 			}
 
-			if ( navbar.hasClass('scrolled') && st > 300 ) {
+			/*if ( navbar.hasClass('scrolled') && st > 300 ) {
 		   	if (st > lastScrollTop){
 		      // if (navbar.hasClass('scrolled')) {
 		      	navbar.removeClass('awake');
@@ -196,7 +196,7 @@
 		      	navbar.addClass('awake');
 		      	navbar.removeClass('sleep');
 		      // }
-		   	}
+		   	}*/
 		   	lastScrollTop = st;
 		  }
 
