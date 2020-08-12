@@ -78,7 +78,7 @@
   var onePageClick = function() {
 		var navToggler = $('.navbar-toggler');
 		//$(".smoothscroll[href^='#'], #pb-navbar ul li a[href^='#']").on('click', function(e) {
-		$(".smoothscroll[href^='#'], #ftco-nav ul li a[href^='#']").on('click', function(e) {
+		$(".smoothscroll[href^='#'], #ftco-navbar ul li a[href^='#']").on('click', function(e) {
 		 	e.preventDefault();
 		 	var hash = this.hash;
 
@@ -90,7 +90,7 @@
 		  });
 		});
 		//$("#pb-navbar ul li a[href^='#']").on('click', function(e){
-		$("#ftco-nav ul li a[href^='#']").on('click', function(e){
+		$("#ftco-navbar ul li a[href^='#']").on('click', function(e){
 			if ( navToggler.is(':visible') ) {
 		  	navToggler.click();
 		  }
