@@ -263,9 +263,11 @@
 		//offCanvasNav();
 
 		contentWayPoint();
-		//navbarState();
+		navbarState();
 		// stellarInit();
-		clickMenu();
+
+		//clickMenu();
+
 		// navigationSection();
 		// magnificPopupControl();
 		smoothScroll();
