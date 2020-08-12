@@ -55,7 +55,7 @@
 		});
 
 	};
-	burgerMenu();
+	//burgerMenu();
 
 
 	/*var onePageClick = function() {
