@@ -29,8 +29,8 @@
 	// navigation
 	var OnePageNav = function() {
 		var navToggler = $('.navbar-toggler');
-		//$(".smoothscroll[href^='#'], #pb-navbar ul li a[href^='#']").on('click', function(e) {
-		$(".smoothscroll[href^='#'], #ftco-nav ul li a[href^='#']").on('click', function(e) {
+		$(".smoothscroll[href^='#'], #pb-navbar ul li a[href^='#']").on('click', function(e) {
+		//$(".smoothscroll[href^='#'], #ftco-nav ul li a[href^='#']").on('click', function(e) {
 		 	e.preventDefault();
 		 	var hash = this.hash;
 
@@ -41,8 +41,8 @@
 		    window.location.hash = hash;
 		  });
 		});
-		//$("#pb-navbar ul li a[href^='#']").on('click', function(e){
-		$("#ftco-nav ul li a[href^='#']").on('click', function(e){
+		$("#pb-navbar ul li a[href^='#']").on('click', function(e){
+		//$("#ftco-nav ul li a[href^='#']").on('click', function(e){
 			if ( navToggler.is(':visible') ) {
 		  	navToggler.click();
 		  }
