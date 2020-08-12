@@ -61,21 +61,11 @@
 	</nav>
 
 	<script>
-	$(function(){
-     var navMain = $("#ftco-nav"); // avoid dependency on #id
-     // "a:not([data-toggle])" - to avoid issues caused
-     // when you have dropdown inside navbar
-     navMain.on("click", "a:not([data-toggle])", null, function () {
-         navMain.collapse('hide');
-     });
- });
-
- $(document).on('click','.navbar-collapse.in',function(e) {
-    if( $(e.target).is('a') ) {
-        $(this).collapse('hide');
-    }
-});
+	$(document).on('click', '#ftco-nav.in a', function(e) {
+		$("#game-navbar-collapse").removeClass("in");//.addClass("collapse");
+	});
 	</script>
+
 	<!--================ Start Home Banner Area =================-->
 	<!-- <section id="home-section" class="hero bg-dark">
 		<div class="home-slider owl-carousel">
