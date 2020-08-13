@@ -9,7 +9,8 @@
   background: none;
   /*position: absolute;*/
   /*position: fixed;*/
-  position: relative;
+  /*position: relative;*/
+  position: static;
 
   /*top: 20px;*/
 
