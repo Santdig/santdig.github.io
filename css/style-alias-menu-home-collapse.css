@@ -1,10 +1,11 @@
 .site-navbar {
-  /*border: none;
+  border: none;
   -webkit-box-shadow: none;
-  box-shadow: none;*/
+  box-shadow: none;
 
-  /*border-radius: 0px;
-  margin-bottom: 0px;*/
+  border-radius: 0px;
+  margin-bottom: 20px;
+
   background: none;
   position: absolute;
 
