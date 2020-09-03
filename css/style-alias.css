@@ -162,7 +162,9 @@
                 background-repeat: no-repeat;
                 position: relative;
                 overflow: hidden; }
-                
+                .site-hero, .site-hero .row {
+                  height: 100vh;
+                  min-height: 870px; }
                 .site-hero:before {
                   content: "";
                   position: absolute;
@@ -171,7 +173,9 @@
                   left: 0;
                   right: 0;
                   bottom: 0;
-                  background: rgba(0, 0, 0, 0.5); }
+                  background: rgba(0, 0, 0, 0.2);
+                  /*background: rgba(211, 211, 211, 0.8); */
+                }
                 .site-hero h1 {
                   font-weight: 200;
                   margin-bottom: 20px;
