@@ -9201,10 +9201,11 @@ textarea.form-control {
     color: rgba(255, 255, 255, 0.7); }
     .ftco-footer a:hover {
       color: #fff; }
-  .ftco-footer .ftco-heading-2 {
+
+  /*.ftco-footer .ftco-heading-2 {
     font-size: 17px;
     font-weight: 400;
-    color: #000000; }
+    color: #000000; }*/
 
 .ftco-footer-social li {
   list-style: none;
