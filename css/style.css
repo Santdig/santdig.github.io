@@ -2082,7 +2082,8 @@ fieldset:disabled a.btn {
     -webkit-box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
     box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5); }
   .btn-primary.disabled, .btn-primary:disabled {
-    color: #fff;
+    /*color: #fff;*/
+    color: #000000;
     background-color: #007bff;
     border-color: #007bff; }
   .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
@@ -9769,3 +9770,51 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+
+    .heading-section .subheading-1 {
+      font-size: 13px;
+      font-weight: 700;
+      display: block;
+      margin-bottom: 5px;
+      text-transform: uppercase;
+      color: black;
+      color: #f4ad2d;
+      letter-spacing: 3px; }
+
+
+      .banner_part {
+        height: 800px;
+        position: relative;
+        overflow: hidden;
+        background-image: url(../images/banner_mac.png);
+        background-repeat: no-repeat;
+        background-size: content;
+        background-position: center;
+        z-index: 1;
+      }
+
+      .banner_part:after {
+        position: absolute;
+        content: "";
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #0042ff;
+        z-index: -1;
+        opacity: .7;
+      }
+
+      @media (max-width: 991px) {
+        /* line 2, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_banner.scss */
+        .banner_part {
+          height: 650px;
+        }
+      }
+
+      @media only screen and (min-width: 992px) and (max-width: 1200px) {
+        /* line 2, /Applications/MAMP/htdocs/palash/cl/july 2019/192 Agency/192 Agency html/sass/_banner.scss */
+        .banner_part {
+          height: 650px;
+        }
+      }
