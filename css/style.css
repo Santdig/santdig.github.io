@@ -9787,7 +9787,7 @@ textarea.form-control {
         height: 800px;
         position: relative;
         overflow: hidden;
-        background-image: url(../images/banner_mac.png);
+        background-image: url(../images/banner_mac1.png);
         background-repeat: no-repeat;
         background-size: content;
         background-position: center;
@@ -9802,7 +9802,8 @@ textarea.form-control {
         width: 100%;
         height: 100%;
         /*background-color: #0042ff;*/
-        background-color: rgba(0, 0, 255, 0.8);
+        /*background-color: rgba(0, 0, 255, 0.8);*/
+        background-color: rgba(0, 0, 255, 0.9);
         z-index: -1;
         opacity: .7;
       }
