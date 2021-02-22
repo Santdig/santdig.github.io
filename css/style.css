@@ -3455,7 +3455,7 @@ input[type="button"].btn-block {
     justify-content: space-between; }
 
 .navbar-brand {
-  display: inline-block;
+  /*display: inline-block;*/
   padding-top: 0.3125rem;
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
@@ -8368,8 +8368,10 @@ h1, h2, h3, h4, h5,
         color: #b1b493; }
 
 .navbar-brand {
-  font-weight: 900;
-  font-size: 24px;
+  /*font-weight: 900;
+  font-size: 24px;*/
+  font-weight: 350;
+  font-size: 22px;
   text-transform: uppercase; }
 
 .hero h3.vr {
@@ -9803,7 +9805,8 @@ textarea.form-control {
         height: 100%;
         /*background-color: #0042ff;*/
         /*background-color: rgba(0, 0, 255, 0.8);*/
-        background-color: rgba(0, 0, 255, 0.93);
+        /*background-color: rgba(0, 0, 255, 0.93);*/
+        background-color: rgba(0, 0, 0, 0.45);
         z-index: -1;
         opacity: .7;
       }

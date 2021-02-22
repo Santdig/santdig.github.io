@@ -177,6 +177,7 @@
                   /*background: rgba(211, 211, 211, 0.8); */
                 }
                 .site-hero h1 {
+                  /*font-weight: 200;*/
                   font-weight: 200;
                   margin-bottom: 20px;
                   display: block; }
@@ -193,4 +194,6 @@
                 .site-hero .site-subheading {
                   max-width: 640px;
                   margin: 0 auto;
-                  color: rgba(255, 255, 255, 0.5); }
+                  color: rgba(255, 255, 255, 0.80); 
+                  /*color: rgba(255, 255, 255, 0.5);*/
+                }
