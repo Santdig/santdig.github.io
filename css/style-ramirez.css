@@ -68,10 +68,11 @@ a:hover, a:focus {
   font-size: 18px;
   border-radius: 5px;
   transition: all 400ms linear 0s;
-  color: #677fb5;
+  /*color: #677fb5;*/
+  color: #b1b493;
 }
 
-.social_icon li:nth-child(2) a {
+/*.social_icon li:nth-child(2) a {
   color: #70c2e9;
   border-color: #70c2e9;
 }
@@ -145,7 +146,7 @@ a:hover, a:focus {
 
 .social_icon li:last-child:hover a {
   background: #faaa5e;
-}
+}*/
 
 .social_icon li:hover a {
   background: #677fb5;
