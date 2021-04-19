@@ -11,12 +11,21 @@
       position: absolute;
       top: .1em;
       left: 0; }
+
     .site-list li.site-check {
       padding-left: 30px; }
       .site-list li.site-check:before {
         color: #7a704e;
         font-size: 16px;
-        content: "\ebd3"; }
+        /*content: "\ebd3";*/
+        content: "\ebd5"; }
+
+        .site-list li.radio-check {
+          padding-left: 30px; }
+        .site-list li.radio-check:before {
+          color: #7a704e;
+          font-size: 16px;
+          content: "\ebd5"; }
 
         .filters {
           text-align: center; }
@@ -194,6 +203,6 @@
                 .site-hero .site-subheading {
                   max-width: 640px;
                   margin: 0 auto;
-                  color: rgba(255, 255, 255, 0.80); 
+                  color: rgba(255, 255, 255, 0.80);
                   /*color: rgba(255, 255, 255, 0.5);*/
                 }
