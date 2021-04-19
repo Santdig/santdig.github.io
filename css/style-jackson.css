@@ -78,6 +78,13 @@
     .progress-bar.color-6 span {
       color: #4054b2; }
 
+  .progress-bar.color-7 {
+    background: #b1b493; }
+  .progress-bar.color-7:after {
+    background: #b1b493; }
+  .progress-bar.color-7 span {
+    color: #b1b493; }
+
 .colorlib-feature {
   text-align: left;
   width: 100%;
@@ -693,6 +700,7 @@
     box-shadow: 0 0 0 5px #f2f3f7;
     line-height: 40px;
     float: left; }
+
     .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon i {
       color: #fff; }
     .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-2 {
@@ -703,6 +711,10 @@
       background: #a84cb8; }
     .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-5 {
       background: #2fa499; }
+
+    .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-7 {
+      background: #b1b493; }
+
     .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-none {
       background: #fff;
       width: 20px;
