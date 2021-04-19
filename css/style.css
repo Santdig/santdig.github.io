@@ -8740,7 +8740,8 @@ h1, h2, h3, h4, h5,
   .btn.btn-primary {
     background: #b1b493;
     border: 1px solid #b1b493 !important;
-    color: #fff !important; }
+    /*color: #fff !important;*/
+    color: white; }
     .btn.btn-primary:hover {
       border: 1px solid #b1b493;
       color: #b1b493; }
@@ -9805,8 +9806,9 @@ textarea.form-control {
         height: 100%;
         /*background-color: #0042ff;*/
         /*background-color: rgba(0, 0, 255, 0.8);*/
-        background-color: rgba(0, 0, 255, 0.80);
-        /*background-color: rgba(0, 0, 0, 0.45);*/
+        /*background-color: rgba(0, 0, 255, 0.80);*/
+        /*background-color: rgba(0, 0, 0,1);*/
+        background-color: black;
         z-index: -1;
         opacity: .7;
       }
