@@ -27,6 +27,27 @@
           font-size: 16px;
           content: "\ebd5"; }
 
+        .site-list li.dot-single {
+            padding-left: 30px; }
+          .site-list li.dot-single:before {
+            color: #7a704e;
+            font-size: 16px;
+            content: "\e93a"; }
+
+        .site-list li.triangle-right {
+          padding-left: 30px; }
+        .site-list li.triangle-right:before {
+          color: #7a704e;
+          font-size: 16px;
+          content: "\e952"; }
+
+          .site-list li.controller-stop {
+            padding-left: 30px; }
+          .site-list li.controller-stop:before {
+            color: #7a704e;
+            font-size: 16px;
+            content: "\e938"; }
+
         .filters {
           text-align: center; }
           .filters ul {
