@@ -713,7 +713,8 @@
       background: #2fa499; }
 
     .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-7 {
-      background: #b1b493; }
+      background: #b1b493;
+      /*background: #2c98f0;*/ }
 
     .timeline-centered .timeline-entry .timeline-entry-inner .timeline-icon.color-none {
       background: #fff;
